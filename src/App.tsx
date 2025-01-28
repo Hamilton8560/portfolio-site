@@ -202,13 +202,13 @@ const backgroundSections = [
     icon: <Tool className="w-6 h-6 text-blue-400" />,
     description: "Experience with various database systems and modern DevOps practices.",
     skills: ["MongoDB", "PostgreSQL", "MySQL", "Docker", "AWS", "CI/CD", "Git", "Linux"]
-  },
-  {
-    title: "AI & Machine Learning",
-    icon: <Brain className="w-6 h-6 text-blue-400" />,
-    description: "Practical experience in implementing AI solutions and machine learning models.",
-    skills: ["Python ML Libraries", "TensorFlow", "Data Processing", "Model Training", "AI Integration"]
   }
+  //{
+  //   title: "AI & Machine Learning",
+  //   icon: <Brain className="w-6 h-6 text-blue-400" />,
+  //   description: "Practical experience in implementing AI solutions and machine learning models.",
+  //   skills: ["Python ML Libraries", "TensorFlow", "Data Processing", "Model Training", "AI Integration"]
+  // }
 ];
 
 const projects = [
