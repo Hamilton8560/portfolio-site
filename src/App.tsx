@@ -1,5 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Code2, Server, PenTool as Tool, Brain, Shield } from 'lucide-react';
+import angelTrustImage from './assets/angeltrust.png';
+import muscleMapLogo from './assets/musclemapLOGO.png';
 
 function App() {
   const scrollToProjects = () => {
@@ -213,7 +215,7 @@ const projects = [
   {
     title: "Angel Trust - Legal Services Platform",
     description: "A comprehensive legal services platform specializing in wills and trusts. Features include SEO optimization, automated document generation, and secure client portal. Increased client acquisition by 200% through optimized user journey and search engine visibility.",
-    image: "../src/assets/angeltrust.png",
+    image: angelTrustImage,
     demo: "https://angel-trust.netlify.app",
     technologies: [
       "React",
@@ -227,7 +229,7 @@ const projects = [
   {
     title: "Muscle Map",
     description: "An AI-powered fitness application built with Angular and Firebase. Features include personalized workout generation, nutrition planning, and Stripe payment integration.",
-    image: "../src/assets/musclemapLOGO.png",
+    image: muscleMapLogo,
     demo: "https://musclemap.net",
     technologies: [
       "Angular",
